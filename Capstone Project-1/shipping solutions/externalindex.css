@@ -1,0 +1,416 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#home{
+	height: 800px;
+	width: 100%;
+	background-image: url('images/shipping.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+
+}
+#home1{
+	font-size: 75px;
+	color: white;
+	position: relative;
+	top: 500px;
+	left: 100px;
+}
+#home2{
+	color: white;
+	position: relative;
+	top: 500px;
+	left: 100px;
+}
+#service{
+	height: 600px;
+	width: 100%;
+	background-color: #EEEEEE;
+}
+#service1{
+	height: 100px;
+	width: 100%;
+	background-color: #F86F03;
+	position: relative;
+	top: 150px;
+	bottom: 400px;
+}
+#service2{
+	height: 400px;
+	width: 20%;
+	background-color: #749BC2;
+	float: left;
+	margin-left: 10%;
+	position: relative;
+	bottom: 75px;
+}
+#service3{
+	height: 400px;
+	width: 20%;
+	background-color: #9E9FA5;
+	float: left;
+	position: relative;
+	bottom: 75px;
+}
+#service4{
+	height: 400px;
+	width: 20%;
+	background-color: #9BA4B5;
+	float: left;
+	position: relative;
+	bottom: 75px;
+}
+#service5{
+	height: 400px;
+	width: 20%;
+	background-color: #61677A;
+	float: left;
+	margin-right: 10%;	
+	position: relative;
+	bottom: 75px;
+}
+.img1{
+	height: 250px;
+	width: 100%;
+}
+.span1{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#image{
+	position: relative;
+	top: 550px;
+	left: 45%;
+	right: 45%;
+}
+#about{
+	height: 800px;
+	width: 100%;
+}
+#about1{
+	height: 800px;
+	width: 35%;
+	float: left;
+}
+#span2{
+	font-size: 50px;
+	position: relative;
+	top: 100px;
+	left: 25%;
+	
+}
+#span3{
+	position: relative;
+	top: 100px;
+	left: 25%;
+}
+#about2{
+	height: 800px;
+	width: 30%;
+	float: left;
+}
+#img2{
+	height: 650px;
+	width: 100%;
+	position: relative;
+	top: 75px;
+	bottom: 75px;
+}
+#about3{
+	height: 800px;
+	width: 35%;
+	float: right;
+}
+#para{
+	font-size: 45px;
+	position: relative;
+	top: 100px;
+	left: 5%;
+}
+#about4{
+	height: 100px;
+	width: 100px;
+	background-color: #F86F03;
+	position: relative;
+	top: 150px;
+	left: 70%;
+}
+#quote{
+	height: 600px;
+	width: 100%;
+	background-image: url('images/transport.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 600px;
+}
+#quote1{
+	height: 600px;
+	width: 50%;
+	background-color: black;
+	opacity: 50%;
+	float: left;
+	color: white;
+}
+#quote2{
+	height: 600px;
+	width: 50%;
+	background-color: black;
+	opacity: 50%;
+	float: right;
+	color: #FFFFFF;
+}
+#span4{
+	position: relative;
+	top: 100px;
+	left: 20%;
+	font-size: 30px;
+}
+#span5{
+	position: relative;
+	top: 100px;
+	right: 10%;
+	left: 3%;
+	font-size: 20px;
+}
+#button{
+	height: 50px;
+	width: 100px;
+	position: relative;
+	top: 150px;
+	right: 10%;
+	left: 3%;
+}
+#save{
+	height: 700px;
+	width: 100%;
+	background-image: url('images/save.jpg');
+	background-repeat: no-repeat;
+	background-size: 30% 600px;
+	position: relative;
+	left: 10%;
+	top: 50px;
+}
+#save1{
+	height: 200px;
+	width: 40%;
+	background-color: #F86F03;
+	color: white;
+	position: relative;
+	left: 15%;
+	top: 150px;
+}
+#span6{
+	font-size: 60px;
+	position: relative;
+	left: 2%;
+	bottom: 1%;
+}
+#span7{
+	font-size: 30px;
+	position: relative;
+	left: 31%;
+	top: 200px;
+}
+#round{
+	height: 700px;
+	width: 100%;
+}
+#round1{
+	height: 400px;
+	width: 100%;
+	background-color: #F86F03;
+}
+#round2{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+}
+#img3{
+	height: 500px;
+	width: 70%;
+	position: relative;
+	top: 100px;
+	left: 10%;
+}
+#round3{
+	height: 100px;
+	width: 35%;
+	background-color: white;
+	position: relative;
+	bottom: 400px;
+	left: 50%;
+
+}
+#round4{
+	height: 100px;
+	width: 35%;
+	background-color: white;
+	position: relative;
+	bottom: 375px;
+	left: 50%;
+	
+}
+#round5{
+	height: 100px;
+	width: 35%;
+	background-color: white;
+	position: relative;
+	bottom: 350px;
+	left: 50%;
+	
+}
+.span8{
+	position: relative;
+	top: 10px;
+	left: 5%;
+}
+#about5{
+	height: 500px;
+	width: 100%;
+	position: relative;
+	bottom: 300px;
+}
+#img4{
+	height: 325px;
+	width: 300px;
+	border-radius: 50%;
+	position: relative;
+	top: 50px;
+	right: 30px;
+}
+#img5{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	position: relative;
+	right: 400%;
+	bottom: 400px;
+}
+#img6{
+	height: 300px;
+	width: 600px;
+	position: relative;
+	right: 400%;
+	bottom: 250px;
+}
+#about6{
+	height: 900px;
+	width: 15%;
+	background-color: #F86F03;
+	position: relative;
+	top: 150px;
+	left: 70%;
+}
+#span9{
+	font-size: 50px;
+	position: relative;
+	right: 500px;
+	top: 150px;
+}
+#span10{
+	
+	position: relative;
+	right: 500px;
+	top: 150px;
+}
+#button1{
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+#contact{
+	height: 800px;
+	width: 100%;
+	background-image: url('images/port.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+	position: relative;
+	top: 300px;
+}
+#contact2{
+	height: 800px;
+	width: 50%;
+	background-color: black;
+	opacity: 50%;
+	float: left;
+}
+#contact3{
+	height: 800px;
+	width: 50%;
+	background-color: black;
+	opacity: 50%;
+	float: right;
+	}
+#span11{
+	font-size: 50px;
+	position: relative;
+	left: 15%;
+	top: 100px;
+	color: white;
+
+}
+#span12{
+	font-size: 25px;
+	position: relative;
+	left: 15%;
+	top: 100px;
+	color: white;
+}
+#button2{
+	height: 50px;
+	width: 100px;
+	background-color: transparent;
+	border: 3px solid white;
+	color: white;
+}
+#form1{
+	color: white;
+	position: relative;
+	left: 800px;
+	bottom: 250px;
+}
+label{
+	font-size: 25px;
+}
+input{
+	text-align: center;
+	color: gray;
+	background-color: white;
+}
+input[type="email"]{
+	width: 200px;
+	height: 50px;
+}
+input[type="text"]{
+	width: 200px;
+	height: 50px;
+}
+input[name="address"]{
+	width: 40%;
+	height: 50px;
+}
+textarea{
+	height: 100px;
+	width: 500px;
+}
+input[type="submit"]{
+	height: 50px;
+	width: 100px;
+}
+#footer{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 100%;
+	background-color: #2B2730;
+	color: white;
+}
